@@ -1,0 +1,4 @@
+requirement:
+    minikube
+    kubectl
+    helm
