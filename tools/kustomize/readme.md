@@ -1,5 +1,7 @@
 # kustomize
 
+kustomization references <https://kubectl.docs.kubernetes.io/references/kustomize/kustomization/>
+
 ```bash
     # without kustomize
     kubectl apply -f .
