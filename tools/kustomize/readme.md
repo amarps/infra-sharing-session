@@ -8,4 +8,7 @@ kustomization references <https://kubectl.docs.kubernetes.io/references/kustomiz
 
     # wiht kustomize
     kubectl apply -k .
+
+    # delete deployment
+    kubectl delete -f .
 ```

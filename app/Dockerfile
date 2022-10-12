@@ -1,4 +1,4 @@
-from golang:alpine
+FROM golang:alpine
 
 RUN apk update && apk add --no-cache git
 
@@ -8,7 +8,7 @@ COPY . .
 
 RUN go mod tidy
 
-run go build -o binary
+RUN go build -o binary
 
 EXPOSE 1234
 
