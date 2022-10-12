@@ -43,7 +43,7 @@ service:
   port: 80
 
 livenessProbeUrl: /users
-readissProbeUrl: /users
+readinessProbeUrl: /users
 
 ingress:
   enabled: false
